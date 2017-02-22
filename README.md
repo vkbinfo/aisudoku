@@ -3,11 +3,13 @@
 
 # Question 1 (Naked Twins)
 Q: How do we use constraint propagation to solve the naked twins problem?  
-A: *Student should provide answer here*
+A: In each row,column, and square-unit first we find the naked twins after that we eliminate naked twins.
+   It's easy we just need to think for a single unit, and that solution can be applied to all units.
 
 # Question 2 (Diagonal Sudoku)
 Q: How do we use constraint propagation to solve the diagonal sudoku problem?  
-A: *Student should provide answer here*
+A: We just need to add two list in to the units which contains two diagonal elements.It will be used as individual unit
+when we apply the search and reduce algorithm.So at a time we only focus on 9 elements of sudoku grid.
 
 ### Install
 
