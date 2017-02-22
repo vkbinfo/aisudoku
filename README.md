@@ -3,8 +3,7 @@
 
 # Question 1 (Naked Twins)
 Q: How do we use constraint propagation to solve the naked twins problem?  
-A: In each row,column, and square-unit first we find the naked twins after that we eliminate naked twins.
-   It's easy we just need to think for a single unit, and that solution can be applied to all units.
+A: In each row,column, and square-unit first we find the naked twins after that we eliminate naked twins char from other elements. It's easy we just need to think for a single unit, and that solution can be applied to all units.
 
 # Question 2 (Diagonal Sudoku)
 Q: How do we use constraint propagation to solve the diagonal sudoku problem?  
